@@ -6,8 +6,8 @@ html, body {
 
 header {
 
- padding: 2rem;
-
+    padding: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }   
 
 img {
