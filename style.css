@@ -7,3 +7,17 @@ img {
     pointer-events: none;
 }
 
+.botao-estilizado {
+  background-color: #F2E8CF;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: Moreganic;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botao-estilizado:hover {
+  background-color: #F2E8CF;
+}
