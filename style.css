@@ -23,6 +23,7 @@ main {
 img {
     position: absolute;
     pointer-events: none;
+
 }
 
 button {
@@ -30,4 +31,6 @@ button {
     border: none;
     padding: 0.8rem;
     color:  #F2E8CF;
+    border-radius: 5px
+    cursor: pointer;
 }
