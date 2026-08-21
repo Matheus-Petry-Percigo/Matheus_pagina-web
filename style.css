@@ -1,4 +1,4 @@
-body {
+html, body {
     overflow: hidden;
 }
 
@@ -6,3 +6,4 @@ img {
     position: absolute;
     pointer-events: none;
 }
+
