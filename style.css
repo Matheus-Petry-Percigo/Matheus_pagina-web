@@ -4,3 +4,8 @@ html, body {
     font-weight: 400;
     box-sizing: border-box;
 }
+
+img {
+  outline: 3px dashed #BC4749;
+  outline-offset: 4px;
+}
