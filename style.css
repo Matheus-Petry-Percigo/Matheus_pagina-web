@@ -4,3 +4,24 @@ html, body {
     font-weight: 400;
     box-sizing: border-box;
 }
+
+header {
+    padding: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    text-align: center;
+}  
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}    
+
+img {
+    position: absolute;
+    pointer-events: none;
+
+}
