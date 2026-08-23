@@ -13,25 +13,27 @@ main {
     font-size: medium;
 }  
                 
-body {              
- background-color: #6a994e;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    box-sizing: border-box;
+    margin: 0;              
+    background-color: #6a994e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
             
 }
 
 button {
- background-color: #BC4749;
- border: none;
- padding: 0.8rem;
- color: #F2E8CF;
- border-radius: 5px;
- cursor: pointer
- transition: background-color 0.3s;
+    background-color: #BC4749;
+    border: none;
+    padding: 0.8rem;
+    color: #F2E8CF;
+    border-radius: 5px;
+    cursor: pointer
+    transition: background-color 0.3s;
 
 }
 
 button:hover {
- background-color: #7a3f40;
- color: #F2E8CF;
+    background-color: #7a3f40;
+    color: #F2E8CF;
 
 }
