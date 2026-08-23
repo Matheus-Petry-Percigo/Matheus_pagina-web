@@ -4,19 +4,3 @@ html, body {
     font-weight: 400;
     box-sizing: border-box;
 }
-
-header {
-    background-color: #BC4749;
-    color:#F2E8CF;
-    margin: 0px auto;
-    text-align: center;
-    padding: 2rem;
-}
-
-
-main {
-    background-color: #6a994e;
-    color: #F2E8CF;
-    margin: 0px auto;
-    flex-direction: column;
-}
