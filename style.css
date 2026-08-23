@@ -10,7 +10,6 @@ header {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     text-align: center;
-    text-shadow: #47bc4d;
 }  
 
 main {
@@ -18,7 +17,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-
 }    
 
 img {
