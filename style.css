@@ -1,7 +1,6 @@
 html {
   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
 
 }
 
@@ -17,6 +16,7 @@ main {
     color: #F2E8CF;
     flex-direction: column;
     font-size: medium;
+    margin: 10px;
 }  
                 
 body {
