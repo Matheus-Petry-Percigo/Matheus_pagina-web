@@ -16,6 +16,7 @@ main {
     color: #F2E8CF;
     flex-direction: column;
     font-size: medium;
+    margin: 5px;
 }  
                 
 body {
