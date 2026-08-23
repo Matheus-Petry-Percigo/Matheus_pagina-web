@@ -21,3 +21,12 @@ function animarCursor() {
     requestAnimationFrame(animarCursor);
 }
 animarCursor();
+
+function canvasDraw() {
+  ctx.fillStyle = "black";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = "red";
+  ctx.beginPath();
+  ctx.arc(x, y, RADIUS, 0, degToRad(360), true);
+  ctx.fill();
+}
