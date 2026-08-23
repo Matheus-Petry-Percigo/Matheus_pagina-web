@@ -37,3 +37,8 @@ button:hover {
     cursor: pointer
 
 }
+
+button:active {
+  background-color: #e66062;
+
+}
