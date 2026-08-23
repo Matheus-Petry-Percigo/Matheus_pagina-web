@@ -57,8 +57,8 @@ button:active {
 ::-webkit-scrollbar-thumb {
   background: #BC4749; /* Cor do puxador (a parte que se move) */
   border-radius: 5px;
-  border: 2px solid #7a3f40;; /* Cria um contorno ao redor do puxador */
-  border-radius: 20px;
+  border: 10px solid #7a3f40;; /* Cria um contorno ao redor do puxador */
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
