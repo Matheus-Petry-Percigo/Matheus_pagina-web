@@ -1,5 +1,36 @@
 img {
+
   outline: auto;
   outline-color: #BC4749;;
   outline-offset: 4px;
+  outline-style: groove;
+}
+
+header {
+
+    background-color: #BC4749;
+     color:#F2E8CF;
+    margin: 0px auto;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+
+main {
+    
+    background-color: #6a994e;
+    color: #F2E8CF;
+    margin: 0px auto;
+    flex-direction: column;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+                
+body {         
+            
+background-color: #6a994e;
+            
 }
