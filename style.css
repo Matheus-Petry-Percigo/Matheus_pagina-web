@@ -50,7 +50,7 @@ button:active {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F2E8CF;; /* Cor do fundo da barra */
+  background: #F2E8CF; /* Cor do fundo da barra */
   border-radius: 5px;
 }
 
