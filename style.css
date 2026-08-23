@@ -4,6 +4,11 @@ html {
 
 }
 
+h1 { 
+  margin: 10px;
+
+}
+
 header {
     background-color: #BC4749;
     color:#F2E8CF;
