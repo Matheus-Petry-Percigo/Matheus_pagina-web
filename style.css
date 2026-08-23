@@ -6,30 +6,17 @@ html, body {
 }
 
 header {
-    padding: 2rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
+    background-color: #BC4749;
+    color:#F2E8CF;
+    margin: 0px auto;
     text-align: center;
-}  
-
-main {
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}    
-
-img {
-    position: absolute;
-    pointer-events: none;
-
 }
 
-button {
-    background-color: #BC4749;
-    border: none;
-    padding: 0.8rem;
-    color:  #F2E8CF;
-    border-radius: 5px
-    
+
+main {
+    background-color: #6a994e;
+    color: #F2E8CF;
+    margin: 0px auto;
+    flex-direction: column;
 }
