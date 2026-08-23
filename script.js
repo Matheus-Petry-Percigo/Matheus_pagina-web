@@ -30,3 +30,29 @@ function canvasDraw() {
   ctx.arc(x, y, RADIUS, 0, degToRad(360), true);
   ctx.fill();
 }
+
+const tracker = document.getElementById("tracker");
+
+let animation;
+function updatePosition(e) {
+  x += e.movementX;
+  y += e.movementY;
+  if (x > canvas.width + RADIUS) {
+    x = -RADIUS;
+  }
+  if (y > canvas.height + RADIUS) {
+    y = -RADIUS;
+  }
+  if (x < -RADIUS) {
+    x = canvas.width + RADIUS;
+  }
+  if (y < -RADIUS) {
+    y = canvas.height + RADIUS;
+  }
+  tracker.textContent = `X position: ${x}, Y position: ${y}`;
+
+  animation ??= requestAnimationFrame(() => {
+    animation = null;
+    canvasDraw();
+  });
+}
