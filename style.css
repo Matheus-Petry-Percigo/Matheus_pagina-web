@@ -25,3 +25,12 @@ img {
     pointer-events: none;
 
 }
+
+button {
+    background-color: #BC4749;
+    border: none;
+    padding: 0.8rem;
+    color:  #F2E8CF;
+    border-radius: 5px
+    
+}
