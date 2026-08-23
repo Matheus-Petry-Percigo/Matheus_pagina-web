@@ -1,5 +1,5 @@
 // Altere este valor para ajustar o atraso (use valores entre 0.01 e 0.99)
-const fatorAtraso = 0.05; 
+const fatorAtraso = 0.99; 
 
 let mouseX = 0, mouseY = 0; // Posição real do mouse
 let cursorX = 0, cursorY = 0; // Posição do cursor personalizado
