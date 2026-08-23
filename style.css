@@ -19,7 +19,7 @@ body {
             
 }
 
-.button {
+button {
  background-color: #BC4749;
  border: none;
  padding: 0.8rem;
@@ -27,10 +27,11 @@ body {
  border-radius: 5px;
  cursor: pointer
  transition: 0.3s;
+ 
 }
 
-.botao:hover {
- background-color: #7a3f40
+botao:hover {
+ background-color: #7a3f40;
  color: #F2E8CF;
 
 }
