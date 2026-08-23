@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
     background-color: #BC4749;
     color:#F2E8CF;
