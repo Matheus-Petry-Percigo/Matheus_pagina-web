@@ -37,10 +37,26 @@
             <P><b>ㆍNutrientes:</b> Coloque adubo (como o NPK ou orgânico) de tempos em tempos para ajudar a planta a crescer forte.</P>
             
             <P><b>ㆍLimpeza:</b> Tire folhas secas e amareladas para manter a saúde da planta.</P>
-            
+
     </main>
     </body>
 
 <button><b> Aperte aqui se você gostou do site :] 🌱 ❤️ </b></button>
+
+<div id="cursor" style="position: absolute; width: 20px; height: 20px; background: red;"></div>
+
+<script>
+  const cursor = document.getElementById('cursor');
+  let velocidade = 0.5; // Menor que 1 fica mais lento, maior que 1 fica mais rápido
+
+  document.addEventListener('mousemove', (e) => {
+    let x = e.clientX * velocidade;
+    let y = e.clientY * velocidade;
+
+    cursor.style.left = x + 'px';
+    cursor.style.top = y + 'px';
+  });
+</script>
+
 
 </html>
