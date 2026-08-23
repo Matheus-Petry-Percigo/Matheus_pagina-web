@@ -1,5 +1,4 @@
 header {
-
     background-color: #BC4749;
     color:#F2E8CF;
     text-align: center;
@@ -9,15 +8,23 @@ header {
 
 
 main {
-
     color: #F2E8CF;
     flex-direction: column;
     font-size: medium;
 }  
                 
-body {         
+body {              
+ background-color: #6a994e;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
             
-background-color: #6a994e;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
+}
+
+button {
+ background-color: #BC4749;
+ border: none;
+ padding: 0.8rem;
+ color: #F2E8CF;
+ border-radius: 5px;
+ cursor: pointer
+
 }
