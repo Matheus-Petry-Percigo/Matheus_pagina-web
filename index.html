@@ -50,11 +50,11 @@
  <script src="script.js"></script>
 </body>
 
-<div id="cursor" style="position: absolute; width: 20px; height: 20px;"></div>
+<div id="cursor" style="position: absolute; width: 20px; height: 20px; color:antiquewhite"></div>
 
  <script>
   const cursor = document.getElementById('cursor');
-  let velocidade = 2.0; // Menor que 1 fica mais lento, maior que 1 fica mais rápido
+  let velocidade = 1.0; // Menor que 1 fica mais lento, maior que 1 fica mais rápido
 
   document.addEventListener('mousemove', (e) => {
     let x = e.clientX * velocidade;
