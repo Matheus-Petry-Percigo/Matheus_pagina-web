@@ -42,3 +42,23 @@ button:active {
   background-color: #f07072;
 
 }
+
+/* Para Chrome, Edge e Safari */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra vertical */
+  height: 10px; /* Altura da barra horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor do fundo da barra */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do puxador (a parte que se move) */
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cor do puxador ao passar o mouse */
+}
