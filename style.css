@@ -76,3 +76,7 @@ button:active {
   background: #f07072; /* Cor do puxador ao passar o mouse */
 }
 
+/* Largura da barra de rolagem vertical / altura da horizontal */
+::-webkit-scrollbar {
+  width: 10px; 
+}
