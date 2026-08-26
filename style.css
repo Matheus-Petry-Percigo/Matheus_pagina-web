@@ -6,7 +6,12 @@ html {
 
 h2 {
   font-size: large;
-  text-align: center;
+  text-align:center;
+
+}
+
+p {
+  text-align:center;
 
 }
 
