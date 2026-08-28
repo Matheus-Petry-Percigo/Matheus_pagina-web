@@ -2,6 +2,9 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: url('Old Roblox Cursor--cursor--SweezyCursors V2.png'), normal;
     cursor: url('Old Roblox Cursor--pointer--SweezyCursors V2.png'), pointer;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
 }
 
   image{
