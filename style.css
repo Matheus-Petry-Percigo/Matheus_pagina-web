@@ -20,6 +20,8 @@ footer {
     text-align: center;
     padding: 2rem;
     font-size: x-large;
+    box-sizing: border-box;
+    margin: 0; 
 }
 
 header {
