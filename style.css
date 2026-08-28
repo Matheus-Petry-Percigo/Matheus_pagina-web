@@ -20,9 +20,6 @@ footer {
     text-align: center;
     padding: 2rem;
     font-size: x-large;
-    flex-direction: column;
-    font-size: medium;
-    margin: 10px;
 }
 
 header {
