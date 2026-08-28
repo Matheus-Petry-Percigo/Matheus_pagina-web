@@ -62,8 +62,8 @@ button:active {
 
 /* Para Chrome, Edge e Safari */
 ::-webkit-scrollbar {
-  width: 8px; /* Largura da barra vertical */
-  height: 8px; /* Altura da barra horizontal */
+  width: 12px; /* Largura da barra vertical */
+  height: 12px; /* Altura da barra horizontal */
 }
 
 ::-webkit-scrollbar-track {
