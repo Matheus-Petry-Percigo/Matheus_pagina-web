@@ -18,10 +18,8 @@ footer {
     background-color: #3D5E4A;
     color:#F2E8CF;
     text-align: center;
-    padding: 2rem;
+    padding: 0rem;
     font-size: x-large;
-    box-sizing: border-box;
-    margin: 0;
 }
 
 header {
