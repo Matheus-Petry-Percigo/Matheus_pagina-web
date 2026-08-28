@@ -9,7 +9,12 @@ html {
   line-height: 0.3em;
 
 }
- 
+
+a {
+    color: #0066cc; /* Digite o código da cor desejada */
+
+}
+
 h2 {
   font-size: large;
   word-spacing: 0.1em;
