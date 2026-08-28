@@ -1,8 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: url('Old Roblox Cursor--cursor--SweezyCursors V2.png'), auto;
-    cursor: pointer url('Old Roblox Cursor--pointer--SweezyCursors V2.png');
-
+    cursor pointer: url('Old Roblox Cursor--pointer--SweezyCursors V2.png');
 }
 
 h2 {
@@ -57,8 +56,8 @@ button:active {
 
 /* Para Chrome, Edge e Safari */
 ::-webkit-scrollbar {
-  width: 10px; /* Largura da barra vertical */
-  height: 10px; /* Altura da barra horizontal */
+  width: 8px; /* Largura da barra vertical */
+  height: 8px; /* Altura da barra horizontal */
 }
 
 ::-webkit-scrollbar-track {
