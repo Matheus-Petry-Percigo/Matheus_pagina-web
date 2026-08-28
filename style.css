@@ -37,9 +37,10 @@ button {
     padding: 0.8rem;
     color: #F2E8CF;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: url(Old Roblox Cursor--pointer--SweezyCursors V2.png);
     transition: background-color 0.3s ease;
     margin: 10px;
+
 }
 
 button:hover {
@@ -74,9 +75,4 @@ button:active {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #f07072; /* Cor do puxador ao passar o mouse */
-}
-
-/* Largura da barra de rolagem vertical / altura da horizontal */
-::-webkit-scrollbar {
-  width: 10px; 
 }
