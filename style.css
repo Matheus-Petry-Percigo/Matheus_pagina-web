@@ -1,6 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: url('Old Roblox Cursor--cursor--SweezyCursors V2.png'), auto;
+    cursor: pointer url('Old Roblox Cursor--pointer--SweezyCursors V2.png');
 
 }
 
@@ -37,7 +38,6 @@ button {
     padding: 0.8rem;
     color: #F2E8CF;
     border-radius: 5px;
-    cursor: url('Old Roblox Cursor--pointer--SweezyCursors V2.png'), auto;
     transition: background-color 0.3s ease;
     margin: 10px;
 
