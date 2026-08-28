@@ -6,12 +6,15 @@ html {
 
 h2 {
   font-size: large;
-  word-spacing: 0.3em;
+  word-spacing: 0.1em;
+  line-height: 0.3em;
+
 }
 
 h3 {
   font-size: larger;
-  word-spacing: 10em;
+  word-spacing: 0.1em;
+  line-height: 10em;
   
 }
 
