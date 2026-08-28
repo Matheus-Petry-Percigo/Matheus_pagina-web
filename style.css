@@ -1,7 +1,7 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     cursor: url('Old Roblox Cursor--cursor--SweezyCursors V2.png'), auto;
-    cursor pointer: url('Old Roblox Cursor--pointer--SweezyCursors V2.png');
+    cursor: url('Old Roblox Cursor--pointer--SweezyCursors V2.png'), pointer;
 }
 
 h2 {
