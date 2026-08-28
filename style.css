@@ -8,10 +8,6 @@ h2 {
 
 }
 
-p {
-
-}
-
 header {
     background-color: #BC4749;
     color:#F2E8CF;
@@ -31,8 +27,9 @@ body {
     box-sizing: border-box;
     margin: 0;              
     background-color: #6a994e;
-            
+    cursor: url('Matheus-Petry-Percigo/Matheus_pagina-web/Old Roblox Cursor--cursor--SweezyCursors.png'), auto;
 }
+            
 
 button {
     background-color: #BC4749;
