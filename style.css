@@ -21,6 +21,15 @@ a:hover {
     cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
 }
 
+.transição-das-cores {
+    height: 50px;
+    background: linear-gradient(
+        to bottom,
+        #6a994e,
+        #3D5E4A
+    );
+}
+
 h2 {
   font-size: large;
   word-spacing: 0.1em;
