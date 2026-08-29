@@ -108,3 +108,13 @@ button:active {
 ::-webkit-scrollbar-thumb:hover {
   background: #f07072; /* Cor do puxador ao passar o mouse */
 }
+
+ #cursor-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; /* Permite clicar nos botões por baixo do rastro */
+    z-index: 9999; /* Mantém o rastro no topo de tudo */
+  }
