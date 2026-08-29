@@ -22,10 +22,13 @@ a:hover {
 }
 
 .transição-das-cores {
-    height: 250px;
+    height: 20px;
     background: linear-gradient(
         to bottom,
         #6a994e,
+        #5e8a4d,
+        #537b4c,
+        #486c4b,
         #3D5E4A
     );
 }
