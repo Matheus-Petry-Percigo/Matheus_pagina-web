@@ -29,9 +29,8 @@ const canvas = document.getElementById('cursor-canvas');
 const ctx = canvas.getContext('2d');
 
 let particles = [];
-// Lista de flores que vão aparecer (você pode mudar os emojis se quiser)
-const flowers = ['🌸', '🌼', '🌹', '🌺', '🌻'];
 
+// Ajusta o tamanho do canvas ao redimensionar a tela
 function resizeCanvas() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
@@ -39,47 +38,42 @@ function resizeCanvas() {
 window.addEventListener('resize', resizeCanvas);
 resizeCanvas();
 
+// Captura o movimento do mouse
 window.addEventListener('mousemove', (e) => {
-  // Cria uma flor a cada movimento do mouse
-  if (Math.random() < 0.4) { // Controla a densidade (0.4 = 40% de chance por movimento)
+  // Cria 2 partículas por movimento para um efeito mais denso
+  for (let i = 0; i < 2; i++) {
     particles.push({
       x: e.clientX,
       y: e.clientY,
-      text: flowers[Math.floor(Math.random() * flowers.length)], // Escolhe uma flor aleatória
-      size: Math.random() * 15 + 10, // Tamanho da flor (entre 10px e 25px)
-      speedX: (Math.random() - 0.5) * 1.5, // Balanço lateral
-      speedY: Math.random() * 1 + 0.5, // Faz a flor cair levemente (gravidade)
-      rotation: Math.random() * Math.PI * 2, // Rotação inicial
-      rotationSpeed: (Math.random() - 0.5) * 0.05, // Velocidade do giro
+      size: Math.random() * 5 + 2, // Tamanho da bolinha
+      speedX: (Math.random() - 0.5) * 2, // Movimento lateral
+      speedY: (Math.random() - 0.5) * 2, // Movimento vertical
       alpha: 1 // Opacidade inicial
     });
   }
 });
 
+// Animação do rastro
 function animate() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   for (let i = 0; i < particles.length; i++) {
     let p = particles[i];
     
-    // Atualiza posição e rotação
+    // Move a partícula levemente
     p.x += p.speedX;
     p.y += p.speedY;
-    p.rotation += p.rotationSpeed;
-    p.alpha -= 0.015; // Velocidade do sumiço (menor = rastro mais longo)
+    
+    // Diminui a opacidade (faz sumir aos poucos)
+    p.alpha -= 0.02; 
 
-    // Desenha a flor com rotação e transparência
-    ctx.save();
-    ctx.globalAlpha = p.alpha;
-    ctx.translate(p.x, p.y);
-    ctx.rotate(p.rotation);
-    ctx.font = `${p.size}px serif`;
-    ctx.textAlign = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(p.text, 0, 0);
-    ctx.restore();
+    // Desenha a bolinha na tela
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(52, 152, 219, ${p.alpha})`; // Altere a cor RGB aqui (ex: Azul)
+    ctx.fill();
 
-    // Remove quando sumir completamente
+    // Remove partículas invisíveis para não pesar a memória
     if (p.alpha <= 0) {
       particles.splice(i, 1);
       i--;
