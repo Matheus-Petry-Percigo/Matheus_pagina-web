@@ -70,7 +70,7 @@ function animate() {
     // Desenha a bolinha na tela
     ctx.beginPath();
     ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(52, 152, 219, ${p.alpha})`; // Altere a cor RGB aqui (ex: Azul)
+    ctx.fillStyle = `rgba(232, 229, 55, 1, ${p.alpha})`; // Altere a cor RGB aqui (ex: Azul)
     ctx.fill();
 
     // Remove partículas invisíveis para não pesar a memória
