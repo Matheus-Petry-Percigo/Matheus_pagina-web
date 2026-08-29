@@ -22,6 +22,9 @@ document.addEventListener('click', function(e) {
     }, cooldownTime);
 }, true); // O "true" aqui ativa a fase de captura, processando o clique antes de qualquer outro elemento
 
+
+
+
 const canvas = document.getElementById('cursor-canvas');
 const ctx = canvas.getContext('2d');
 
@@ -67,7 +70,7 @@ function animate() {
     // Desenha a bolinha na tela
     ctx.beginPath();
     ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(52, 152, 219, ${p.alpha})`; // Altere a cor RGB aqui (ex: Azul)
+    ctx.fillStyle = `rgba(240, 112, 114, 1) ${p.alpha})`; // Altere a cor RGB aqui (ex: Azul)
     ctx.fill();
 
     // Remove partículas invisíveis para não pesar a memória
