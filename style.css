@@ -38,7 +38,6 @@ h3 {
 }
 
 footer {
-    background-color: #386641;
     color:#F2E8CF;
     text-align: center;
     padding: 2rem;
@@ -66,8 +65,14 @@ body {
     box-sizing: border-box;
     margin: 0px; 
     padding: 0px;             
-    background-color: #6a994e;
     cursor: url("Old Roblox Cursor--cursor--SweezyCursors V2.png"), auto;
+        background: linear-gradient(
+        to bottom,
+        #6a994e 0%,
+        #557c4e 30%,
+        #496b4b 60%,
+        #3D5E4A 100%
+    );
     
 }
             
