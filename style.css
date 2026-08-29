@@ -59,7 +59,7 @@ body {
     padding: 0px;             
     background-color: #6a994e;
     cursor: url("Old Roblox Cursor--cursor--SweezyCursors V2.png"), auto;
-    cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
+    
 }
             
 
@@ -71,14 +71,13 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin: 10px;
-    cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
 
 }
 
 button:hover {
     background-color: #7a3f40;
     color: #F2E8CF;
-    cursor: pointer;
+    cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
 
 }
 
