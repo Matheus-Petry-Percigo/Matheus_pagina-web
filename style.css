@@ -11,10 +11,6 @@ html {
 
 }
 
-p, h1, h2, h3, h4, h5, h6, span, li {
-    cursor: text;
-}
-
 a {
     color: #e8e537;
     cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
