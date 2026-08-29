@@ -38,7 +38,7 @@ h3 {
 }
 
 footer {
-    background-color: #3D5E4A;
+    background-color: #386641;
     color:#F2E8CF;
     text-align: center;
     padding: 2rem;
@@ -115,7 +115,7 @@ button:active {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #f07072; /* Cor do puxador ao passar o mouse */
-}
+} 
 
  #cursor-canvas {
     position: fixed;
