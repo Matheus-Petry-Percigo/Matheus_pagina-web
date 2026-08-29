@@ -13,7 +13,11 @@ html {
 
 a {
     color: #e8e537;
+    cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
+}
 
+a:hover {
+    cursor: url("Old Roblox Cursor--pointer--SweezyCursors V2.png"), pointer;
 }
 
 h2 {
