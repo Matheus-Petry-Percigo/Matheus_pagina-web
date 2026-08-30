@@ -138,3 +138,44 @@ button:active {
     pointer-events: none; /* Permite clicar nos botões por baixo do rastro */
     z-index: 9999; /* Mantém o rastro no topo de tudo */
   }
+
+
+  
+  .parte-vermelha {
+    position: relative;
+    background-color: #b84444; /* Sua cor vermelha */
+    overflow: hidden;
+}
+
+/* O vídeo fica no fundo */
+.video-flores {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    opacity: 0.35;
+
+    /* Faz o fundo preto praticamente desaparecer */
+    mix-blend-mode: screen;
+
+    /* Tenta deixar as flores com tons mais próximos do vermelho */
+    filter:
+        grayscale(100%)
+        sepia(100%)
+        hue-rotate(300deg)
+        saturate(200%);
+
+    z-index: 0;
+}
+
+/* Conteúdo fica acima do vídeo */
+.conteudo-vermelho {
+    position: relative;
+    z-index: 1;
+}
