@@ -159,10 +159,7 @@ button:active {
 
     object-fit: cover;
 
-    opacity: 0;
-
-    /* Faz o fundo preto praticamente desaparecer */
-    mix-blend-mode: screen;
+    opacity: 0.55;
 
     /* Tenta deixar as flores com tons mais próximos do vermelho */
     filter:
