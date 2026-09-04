@@ -35,9 +35,8 @@ a:hover {
 
 h5 {
 
-text-align: center;
-font-size: large;
-
+  text-align: center;
+  font-size: large;
 
 } 
 
@@ -45,7 +44,7 @@ h4 {
 
   font-size: large;
   text-align: center;
-
+  line-height: 0.5em;
 }
 
 h2 {
