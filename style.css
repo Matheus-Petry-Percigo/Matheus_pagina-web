@@ -33,6 +33,12 @@ a:hover {
     );
 }
 
+h5 {
+
+text-align: center
+
+} 
+
 h4 {
 
   font-size: large;
@@ -135,7 +141,8 @@ button:active {
 ::-webkit-scrollbar-thumb:hover {
   background: #f07072; /* Cor do puxador ao passar o mouse */
 } 
-
+  display: block;
+  margin: 0 auto;
  #cursor-canvas {
     position: fixed;
     top: 0;
