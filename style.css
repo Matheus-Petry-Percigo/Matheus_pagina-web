@@ -36,7 +36,7 @@ a:hover {
 h5 {
 
   text-align: center;
-  font-size: large;
+  font-size: larger;
   line-height: 0.9em;
 
 } 
@@ -58,7 +58,7 @@ h2 {
 }
 
 h3 {
-  font-size: larger;
+  font-size: x-large;
   word-spacing: 0.1em;
   line-height: 5em;
   text-align: center;
