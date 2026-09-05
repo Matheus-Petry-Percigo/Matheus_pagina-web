@@ -195,7 +195,6 @@ button:active {
 
 
 /* Container da barra (fixo no topo) */
-
 .progress-container {
   position: fixed;
   top: 0;
