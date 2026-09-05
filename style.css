@@ -145,7 +145,7 @@ button:active {
   background: #f07072; /* Cor do puxador ao passar o mouse */
 } 
 
- #cursor-canvas {
+#cursor-canvas {
     position: fixed;
     top: 0;
     left: 0;
@@ -153,11 +153,9 @@ button:active {
     height: 100vh;
     pointer-events: none; /* Permite clicar nos botões por baixo do rastro */
     z-index: 9999; /* Mantém o rastro no topo de tudo */
-  }
+}
 
-
-
-  .Seção-vermelha {
+.Seção-vermelha {
     position: relative;
     background-color: #b84444; /* Sua cor vermelha */
     overflow: hidden;
@@ -183,54 +181,6 @@ button:active {
     align-items: center;
     justify-content: center;
 }
-
-/* O vídeo fica preso DENTRO do header */
-.video-flores {
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-
-    opacity: 0.45;
-
-    z-index: 0;
-
-    /* Filtro para deixar as flores avermelhadas */
-    filter:
-        grayscale(100%)
-        sepia(100%)
-        hue-rotate(300deg)
-        saturate(200%);
-}
-
-/* Camada vermelha sobre o vídeo */
-.filtro-vermelho {
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background-color: #BC4749;
-
-    opacity: 0.35;
-
-    z-index: 1;
-}
-
-/* Conteúdo fica acima do vídeo e do filtro */
-.conteudo-vermelho {
-    position: relative;
-    z-index: 2;
-}
-
 
 
 /* Container da barra (fixo no topo) */
@@ -261,4 +211,34 @@ button:active {
   max-width: 800px;
   margin: 50px auto;
 
+}
+
+
+.header-vermelho {
+    position: relative;
+    overflow: hidden;
+    background-color: #BC4749;
+    color: #F2E8CF;
+    text-align: center;
+    padding: 2rem;
+    min-height: 250px;
+}
+
+.video-flores {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    opacity: 0.45;
+
+    z-index: 0;
+}
+
+.conteudo-vermelho {
+    position: relative;
+    z-index: 1;
 }
