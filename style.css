@@ -194,6 +194,8 @@ button:active {
 }
 
 
+
+
 /* Container da barra (fixo no topo) */
 .progress-container {
   position: fixed;
@@ -201,31 +203,11 @@ button:active {
   left: 0;
   width: 100%;
   height: 8px;
-  background-color: #f0f0f0;
+  background-color: #F2E8CF;
   z-index: 9999;
+  border-radius: 5px;
           
   }
-
-
-.progress-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 8px;
-  background-color: #F2E8CF;;
-  z-index: 9999;
-
-}
-
-/* A barra que vai encher */
-.progress-bar {
-  height: 100%;
-  width: 0%; /* Começa em 0% */
-  background-color: #007bef; /* Cor da barra */
-  transition: width 0.1s ease-out; /* Suaviza o movimento */
-
-}
 
 /* A barra que vai encher */
 .progress-bar {
@@ -233,7 +215,6 @@ button:active {
   width: 0%; /* Começa em 0% */
   background-color: #386641; /* Cor da barra */
   transition: width 0.1s ease-out; /* Suaviza o movimento */
-
 
 }
 
