@@ -159,11 +159,10 @@ button:active {
     position: relative;
     overflow: hidden;
     background-color: #BC4749;
-    opacity: 0.5;
     color: #F2E8CF;
     text-align: center;
     padding: 2rem;
-    
+
     /* Mantém o header com uma altura adequada */
     min-height: 250px;
 
