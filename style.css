@@ -155,12 +155,6 @@ button:active {
     z-index: 9999; /* Mantém o rastro no topo de tudo */
 }
 
-.Seção-vermelha {
-    position: relative;
-    background-color: #b84444; /* Sua cor vermelha */
-    overflow: hidden;
-}
-
 /* Parte vermelha do site */
 .Seção-vermelha {
     position: relative;
