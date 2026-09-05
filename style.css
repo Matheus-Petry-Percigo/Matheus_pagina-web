@@ -74,7 +74,6 @@ footer {
 }
 
 header {
-    background-color: #BC4749;
     color:#F2E8CF;
     text-align: center;
     padding: 2rem;
@@ -159,6 +158,8 @@ button:active {
 .Seção-vermelha {
     position: relative;
     overflow: hidden;
+
+    background-color: #BC4749;
 
     color: #F2E8CF;
     text-align: center;
