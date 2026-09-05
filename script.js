@@ -56,5 +56,5 @@ new Lenis({
     anchors: true,
     allowNestedScroll: true,
     naiveDimensions: true,
-    stopInertiaOnNavigate: true;
+    stopInertiaOnNavigate: true
 })
