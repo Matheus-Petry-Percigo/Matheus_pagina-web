@@ -58,5 +58,3 @@ new Lenis({
     naiveDimensions: true,
     stopInertiaOnNavigate: true;
 })
-
-src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js";
