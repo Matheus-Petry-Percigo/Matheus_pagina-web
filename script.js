@@ -32,3 +32,18 @@ document.addEventListener('click', function(e) {
     }, cooldownTime);
 
 }, true);
+
+
+window.addEventListener("scroll", () => {
+ const scroll = windows.scrolly;
+ const alturaDocumento = document.documentElement.scrollHeight;
+ const alturaTela = window.innerHeight;
+ const alturaScrollavel = alturaDocumento - alturaTela;
+
+ const percentualScroll = (scroll / alturaScrollavel) * 100;
+
+ const elemBarraProgresso = document.querySelector("#progressBar");
+
+ elemBarraProgresso.style.width = `${percentualScroll}%`;
+
+})
