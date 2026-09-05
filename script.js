@@ -32,3 +32,31 @@ document.addEventListener('click', function(e) {
     }, cooldownTime);
 
 }, true);
+
+ window.addEventListener('scroll', () => {
+            // Quanto o usuário já rolou para baixo
+            const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+            
+            // Altura total da página menos a altura da tela visível
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            
+            // Cálculo da porcentagem (entre 0 e 100)
+            const scrolled = (winScroll / height) * 100;
+            
+            // Aplica a porcentagem na largura da barra de progresso
+            document.getElementById('myProgressBar').style.width = scrolled + '%';
+
+ })
+
+
+new Lenis({
+
+    autoRaf: true,
+    autoToggle: true,
+    anchors: true,
+    allowNestedScroll: true,
+    naiveDimensions: true,
+    stopInertiaOnNavigate: true;
+})
+
+src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js";
