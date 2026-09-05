@@ -215,8 +215,8 @@ button:active {
   width: 0%; /* Começa em 0% */
   background-color: #386641; /* Cor da barra */
   transition: width 0.1s ease-out; /* Suaviza o movimento */
-  border-radius: 5px;
-  
+  border-radius: 10px;
+
 }
 
 /* Conteúdo fictício apenas para gerar rolagem */
