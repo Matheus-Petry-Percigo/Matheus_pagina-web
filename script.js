@@ -58,3 +58,32 @@ new Lenis({
     naiveDimensions: true,
     stopInertiaOnNavigate: true
 })
+
+
+
+const cursorCircle = document.getElementById("cursor-circle");
+
+let mouseX = 0;
+let mouseY = 0;
+
+let circleX = 0;
+let circleY = 0;
+
+// Detecta a posição do mouse
+document.addEventListener("mousemove", function (e) {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+});
+
+// Faz o círculo perseguir o mouse suavemente
+function animateCircle() {
+    circleX += (mouseX - circleX) * 0.15;
+    circleY += (mouseY - circleY) * 0.15;
+
+    cursorCircle.style.left = circleX + "px";
+    cursorCircle.style.top = circleY + "px";
+
+    requestAnimationFrame(animateCircle);
+}
+
+animateCircle();
