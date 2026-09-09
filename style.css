@@ -242,7 +242,7 @@ button:active {
     width: 55px;
     height: 55px;
     border: 2px solid #BC4749;
-    border-radius: 50%;
+    border-radius: 80%;
     pointer-events: none;
     z-index: 9999;
 
