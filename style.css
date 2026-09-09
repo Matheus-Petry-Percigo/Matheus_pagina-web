@@ -233,8 +233,22 @@ button:active {
     z-index: 1;
 }
 
-
-/* Ajustes opcionais para o tamanho da imagem */
 .Imagem-de-flor {
   border-radius: 10px;
+}
+
+#cursor-circle {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #BC4749;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+
+    /* Faz o círculo ficar centralizado no cursor */
+    transform: translate(-50%, -50%);
+
+    /* Deixa o movimento mais suave */
+    transition: width 0.2s, height 0.2s;
 }
