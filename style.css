@@ -236,6 +236,7 @@ button:active {
 
 /* Ajustes opcionais para o tamanho da imagem */
 .Imagem-de-flor {
+  position: center;
   max-width: 100%;
   height: auto;
   border-radius: 4px; /* Leve arredondado nos cantos igual ao da imagem */
