@@ -239,7 +239,7 @@ button:active {
 
 #cursor-circle {
     position: fixed;
-    width: 55px;
+    width: 80px;
     height: 35px;
     border: 2px solid #BC4749;
     border-radius: 50%;
